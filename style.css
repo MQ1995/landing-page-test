@@ -9,8 +9,17 @@ html {
 
 header {
   display: flex;
+  justify-content: space-between;
   background-color: #1f2937;
   padding: 10px;
+  color: #F9FAF8;
+  font-size: 24px;
+}
+
+a {
+  text-decoration: none;
+  color: #E5E7EB;
+  font-size: 18px;
 }
 
 body {
@@ -23,20 +32,14 @@ body {
 
 footer {
   background-color: #1f2937;
-color: white;
-padding: 20px;
-text-align: center;
-}
-
-a {
-  text-decoration: none;
   color: white;
+  padding: 20px;
+  text-align: center;
 }
 
 .hero-section {
   flex: 1;
   background-color: #1f2937;
-
 }
 
 .info-section {
