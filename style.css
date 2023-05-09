@@ -112,7 +112,6 @@ h2 {
 .card-container {
   margin-top: 30px;
   display: flex;
-  flex-wrap: wrap;
   gap: 50px;
 }
 
@@ -167,5 +166,30 @@ h2 {
 /* ----------------CALL TO ACTION SECTION------------------ */
 
 .cta-section {
+  padding: 4vw;
   flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.cta-card {
+  border-radius: 10px;
+  background-color: #3382f6;
+  width: 75%;
+  padding: 3vw 10vw;
+  display: flex; 
+  justify-content: space-between;
+}
+
+.cta-text > h3,p {
+  color: white;
+  margin: 0;
+}
+
+.cta-card > button {
+  border: 3px solid white;
+  border-radius: 10px;
+  background-color: #3382f6;
+  color: white;
+  padding: 3px 20px;
 }
