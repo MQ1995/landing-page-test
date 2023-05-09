@@ -49,21 +49,15 @@ footer {
   text-align: center;
 }
 
+/* ----------------HERO SECTION------------------ */
+
 .hero-section {
   padding: 50px 10%;
-  /* max-height: 200px; */
   flex: 1;
   display: flex;
   align-items: center;
   background-color: #1f2937;
-}
-
- h1 {
-  margin: 0;
-  padding: 0;
-  color: #F9FAF8;
-  font-size: 48px;
-  font-weight: bolder;
+  gap: 10px;
 }
 
 .hero-cta {
@@ -72,14 +66,22 @@ footer {
   flex-direction: column; */
 }
 
-.hero-cta > p {
+h1 {
+  margin: 0;
+  padding: 0;
+  color: #f9faf8;
+  font-size: 48px;
+  font-weight: bolder;
+}
+
+.hero-text {
   color: #e5e7eb;
   font-size: 18px;
   margin: 1rem 0;
 }
 
-.hero-cta > button {
-  background-color: #3382F6;
+.hero-button {
+  background-color: #3382f6;
   color: white;
   padding: 5px 15px;
   border: none;
@@ -93,6 +95,8 @@ footer {
   height: 250px;
   object-fit: cover;
 }
+
+/* ----------------INFO SECTION------------------ */
 
 .info-section {
   flex: 1;
